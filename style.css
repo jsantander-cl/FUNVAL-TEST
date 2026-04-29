@@ -149,7 +149,7 @@ section { /* o el contenedor donde esté la lista */
 }
 
 ol {
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left; /* Mantiene la estructura de los números alineada */
     width: fit-content;   /* La caja mide exactamente lo que mide el texto largo */
@@ -162,6 +162,16 @@ ol li {
     white-space: nowrap;   /* Prohíbe que el texto salte a la siguiente línea */
     text-align: left;      /* Mantiene la alineación con el número */
     padding-left: 0;      /* Elimina el espacio adicional a la izquierda */
+}
+
+
+ul {
+        width: 30%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px
+
 }
 
 section article {
