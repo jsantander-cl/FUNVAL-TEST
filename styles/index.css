@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+div #TITULO {
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    background-color: darkslategray;
+
+margin: 0;
+    padding: 0;
+    text-align: center; /* Centrado horizontal del texto */
+    width: 100%;
+
+}
+
+p.sobremi {
+    
+    text-align: left;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    background-color: white;
+        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        width: 50%;
+        border-radius: 20px;
+    margin: auto;
+    
+}
+
+IMG.FOTO1 {
+    src:("IMG/518285474_10236837759906582_5344907901835306190_n.jpg") width="300" height="300";
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+IMG.FOTO1 {
+    transition: transform 0.3s ease; /* Hace que el zoom sea suave */
+    cursor: zoom-in;                /* Cambia el cursor a una lupa */
+}
+
+IMG.FOTO1:active {          /* Se activa mientras mantienes el clic */
+    transform: scale(1.5);          /* Agranda la imagen un 50% */
+    z-index: 100;                   /* Asegura que se vea por encima de todo */
+    position: relative;
+}
+
+.subtitulo1 {
+    text-align: center;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    text-decoration: underline;
+}
+ 
+
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: darkslategrey;
+    color: white;
+}
+
+tr:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+IMG.FOTO2 {
+    src:("IMG\licensed-image.jpeg") width="300" height="300";
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}   
+
+IMG.FOTO2 {
+    transition: transform 0.3s ease; /* Hace que el zoom sea suave */
+    cursor: zoom-in;                /* Cambia el cursor a una lupa */
+}
+
+IMG.FOTO2:active {          /* Se activa mientras mantienes el clic */
+    transform: scale(1.5);          /* Agranda la imagen un 50% */
+    z-index: 100;                   /* Asegura que se vea por encima de todo */
+    position: relative;
+}
+
+DIV p {
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    /* padding-left: 480px; */
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    margin: 20px;
+    text-decoration: underline;
+}
+  
+ol {
+    width: 30%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+section { /* o el contenedor donde esté la lista */
+    display: flex;
+    flex-direction: column; /* Alinea los elementos hacia abajo */
+    align-items: center;    /* Centra los elementos hijos horizontalmente */
+}
+
+ol {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; /* Mantiene la estructura de los números alineada */
+    width: fit-content;   /* La caja mide exactamente lo que mide el texto largo */
+    margin: 0 auto;       /* Centra la caja horizontalmente */
+    padding-left: 0;      /* ELIMINA el espacio por defecto que te lo desvía a la derecha */
+    list-style-position: inside; /* Coloca el número DENTRO de la caja para que no se corte */
+}
+
+ol li {
+    white-space: nowrap;   /* Prohíbe que el texto salte a la siguiente línea */
+    text-align: left;      /* Mantiene la alineación con el número */
+    padding-left: 0;      /* Elimina el espacio adicional a la izquierda */
+}
+
+section article {
+   background-color: white;
+   width: 400px;
+   padding: 1rem 0;
+   border-radius: 0.5rem;
+    margin-bottom: 25px; /* ESTA LÍNEA crea la separación */
+   
+}
+
+section article:hover {
+   box-shadow: 0 0.1rem 0.4rem rgba (0, 0, 0, 3); /* Agrega una sombra suave al pasar el mouse */
+   
+}
+
+DIV h3 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
